@@ -1,0 +1,58 @@
+{
+  "name": "@datav/react-ts",
+  "version": "2.0.0",
+  "description": "React 19 TypeScript large-screen visualization components (DataV-React fork)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeungxh1/datav-react-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yeungxh1/datav-react-ts/issues"
+  },
+  "homepage": "https://github.com/yeungxh1/datav-react-ts#readme",
+  "type": "module",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
+  },
+  "packageManager": "pnpm@10.28.1",
+  "scripts": {
+    "dev": "vite --config playground/vite.config.ts",
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepare": "pnpm run build"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "jsdom": "^30.0.1",
+    "less": "^4.9.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "typescript": "5.9",
+    "vite": "^8.2.2",
+    "vite-plugin-dts": "^5.0.3",
+    "vitest": "^4.1.11"
+  }
+}
