@@ -40,6 +40,8 @@ import {
   BorderBox17,
   BorderBox18,
   BorderBox19,
+  BorderBox20,
+  BorderBox21,
   Loading,
   DigitalFlop,
   CapsuleChart,
@@ -119,6 +121,16 @@ export function App() {
           <BorderBox19>
             <span>BorderBox19</span>
           </BorderBox19>
+        </div>
+        <div className="demo">
+          <BorderBox20>
+            <span>BorderBox20</span>
+          </BorderBox20>
+        </div>
+        <div className="demo">
+          <BorderBox21>
+            <span>BorderBox21</span>
+          </BorderBox21>
         </div>
       </div>
       <h2>Decorations</h2>
